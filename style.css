@@ -1,0 +1,56 @@
+/* body{
+    background-color: aqua;
+} */
+.heading{
+    color: lightcoral;
+    text-align: center;
+}
+.heading p{
+    color: aqua;
+}
+/* body{
+   background-image:  url("images/js.png");
+   background-repeat: no-repeat;
+   background-size: auto;
+   background-attachment: fixed;
+   background-image: ;
+} */
+.border{
+    border-style: solid;
+    border-color: blue;
+    border-width: 10px ;
+    border-radius: 13px;
+
+}
+.margin{
+    border-style: solid;
+    margin: 50px 50px 40px 50px;
+}
+.padding{
+    border-style: solid;
+    background-color: aquamarine;
+    padding-left: 100px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.font{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.text{
+    background-color: aqua;
+    color: white;
+    text-align: left;
+
+}
+ input:focus{
+    background-color: blue;
+}
+.heading:hover{
+    background-color: blue;
+}
+.rgba{
+    background-color: rgba(300,200,55,1);
+}
