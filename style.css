@@ -54,3 +54,37 @@
 .rgba{
     background-color: rgba(300,200,55,1);
 }
+#flex{
+    height: 300px;
+    width: 300px;
+    border-color: blue;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    
+}
+#flex div{
+    flex: 1;
+}
+.flex1{
+    background-color: aqua;
+}
+.flex3{
+    background-color: blue;
+}
+#grid{
+    background-color: aqua;
+    display: grid;
+    grid: 150px;
+    grid-gap: 10px;
+    grid-template-rows: 15px 15px 15px;
+    grid-template-columns: 15px 15px 15px;
+    row-gap: 50px;
+    column-gap: 30px;
+
+}
+.item{
+    height: 133px;
+    width: 122px;
+    
+}
